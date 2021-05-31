@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/dev/rlxos/welcome-tour">
+        <file preprocess="xml-stripblanks">ui.glade</file>
+        <file>rlxos.png</file>
+        <file>appimage.jpg</file>
+        <file>rlx_mock.png</file>
+    </gresource>
+</gresources>
