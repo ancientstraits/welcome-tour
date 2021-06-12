@@ -562,7 +562,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://discord.gg/WZCJxSZ</property>
                     <property name="visited">True</property>
@@ -578,7 +577,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://www.youtube.com/channel/UC2Dd2tHneeaxvhqz_IaO9bw</property>
                     <property name="visited">True</property>
@@ -594,7 +592,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://community.rlxos.dev</property>
                     <property name="visited">True</property>
@@ -610,7 +607,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://rlxos.dev</property>
                     <property name="visited">True</property>
@@ -626,7 +622,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://blog.rlxos.dev</property>
                     <property name="visited">True</property>
@@ -642,7 +637,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://updates.rlxos.dev</property>
                     <property name="visited">True</property>
@@ -658,7 +652,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://twitter.com/rlxos_dev</property>
                     <property name="visited">True</property>
@@ -674,7 +667,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://reddit.com/r/rlxos_dev</property>
                     <property name="visited">True</property>
@@ -690,7 +682,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://docs.rlxos.dev/</property>
                     <property name="visited">True</property>
@@ -706,7 +697,6 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
-                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://github.com/rlxos</property>
                   </object>

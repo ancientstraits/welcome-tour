@@ -8,6 +8,7 @@
 #include <string>
 #include <array>
 #include <filesystem>
+
 std::tuple<int, std::string> exec(const char *cmd)
 {
     std::array<char, 128> buffer;
@@ -133,48 +134,31 @@ namespace WelcomeTour
     class HelpPage : public Page, public Gtk::Box
     {
         Glib::RefPtr<Gtk::Builder> const &ui;
-        Gtk::LinkButton *discord_link,
-            *youtube_link,
-            *community_link,
-
-            *doc_link,
-            *support_link,
-            *home_link,
-
-            *updates_link,
-            *blog_link,
-            *doc_rlxos;
 
     public:
         HelpPage(BaseObjectType *obj, Glib::RefPtr<Gtk::Builder> const &refbuilder)
             : Gtk::Box(obj), ui(refbuilder)
         {
-            ui->get_widget("discord_link", discord_link);
-            discord_link->set_label("Discord");
+        }
 
-            ui->get_widget("youtube_link", youtube_link);
-            youtube_link->set_label("Youtube");
+        void initialize()
+        {
+        }
 
-            ui->get_widget("community_link", community_link);
-            community_link->set_label("Forum");
+        bool can_leave()
+        {
+            return true;
+        }
+    };
 
-            ui->get_widget("doc_link", doc_link);
-            doc_link->set_label("Documentation");
+    class LotMore : public Page, public Gtk::Box
+    {
+        Glib::RefPtr<Gtk::Builder> const &ui;
 
-            ui->get_widget("support_link", support_link);
-            support_link->set_label("Support");
-
-            ui->get_widget("home_link", home_link);
-            home_link->set_label("Website");
-
-            ui->get_widget("updates_link", updates_link);
-            updates_link->set_label("Upates");
-
-            ui->get_widget("blog_rlxos", blog_link);
-            blog_link->set_label("Blog");
-
-            ui->get_widget("doc_rlxos", doc_rlxos);
-            doc_rlxos->set_label("Docs");
+    public:
+        LotMore(BaseObjectType *obj, Glib::RefPtr<Gtk::Builder> const &refbuilder)
+            : Gtk::Box(obj), ui(refbuilder)
+        {
         }
 
         void initialize()
@@ -308,6 +292,7 @@ namespace WelcomeTour
             AppsPage *apps_page;
             UpdatesPage *updates_page;
             HelpPage *help_page;
+            LotMore* lot_more_page;
             EndPage *end_page;
             Stack *stack;
             Gtk::LinkButton *updates_link;
@@ -324,13 +309,15 @@ namespace WelcomeTour
             ui->get_widget_derived("apps_page", apps_page);
             ui->get_widget_derived("updates_page", updates_page);
             ui->get_widget_derived("help_page", help_page);
+            ui->get_widget_derived("lot_more_page", lot_more_page);
             ui->get_widget_derived("end_page", end_page);
-
+            
             stack->addPage("welcome_page", welcome_page);
             stack->addPage("interface_page", interface_page);
             stack->addPage("apps_page", apps_page);
             stack->addPage("updates_page", updates_page);
             stack->addPage("help_page", help_page);
+            stack->addPage("lot_more_page", lot_more_page);
             stack->addPage("end_page", end_page);
 
             win->stack = stack;
