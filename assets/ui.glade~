@@ -59,7 +59,8 @@ You can boot to any version from grub any time.</property>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Thanks for joining rlxos community. Click 'Next' to start the welcome tour</property>
+                <property name="label" translatable="yes">Thanks for giving a try to the initial release of rlxos
+Click 'Next' to start the welcome tour</property>
                 <property name="justify">center</property>
                 <property name="wrap">True</property>
               </object>
@@ -118,8 +119,8 @@ You can boot to any version from grub any time.</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="margin-bottom">18</property>
-                <property name="label" translatable="yes">rlxos have a common customized interface above your
-favourite desktop environment</property>
+                <property name="label" translatable="yes">rlxos provides customized interface above your
+favourite desktop environment to boost your productivity</property>
                 <property name="justify">center</property>
               </object>
               <packing>
@@ -193,7 +194,7 @@ favourite desktop environment</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="margin-bottom">18</property>
-                <property name="label" translatable="yes">rlxos have a native support appimages and a dedicated market 
+                <property name="label" translatable="yes">rlxos provides native support appimages and a dedicated market 
 from where you can download your favouriate apps</property>
                 <property name="justify">center</property>
                 <property name="wrap">True</property>
@@ -248,9 +249,7 @@ Just Download and run"</property>
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">Copy Apps to HomeDir/Applications or /Application 
-to integerate appimages into
-system locally and globally respectively</property>
+                    <property name="label" translatable="yes">Just put the apps in Applications folder in your home directory to integerate apps with system</property>
                     <property name="justify">center</property>
                     <property name="wrap">True</property>
                   </object>
@@ -562,9 +561,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://discord.gg/WZCJxSZ</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">0</property>
@@ -577,9 +576,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://www.youtube.com/channel/UC2Dd2tHneeaxvhqz_IaO9bw</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">0</property>
@@ -592,9 +591,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://community.rlxos.dev</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">0</property>
@@ -607,9 +606,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://rlxos.dev</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -618,13 +617,13 @@ and installing applications on rlxos</property>
                 </child>
                 <child>
                   <object class="GtkLinkButton">
-                    <property name="label" translatable="yes">blog</property>
+                    <property name="label" translatable="yes">Blog</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://blog.rlxos.dev</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -633,13 +632,13 @@ and installing applications on rlxos</property>
                 </child>
                 <child>
                   <object class="GtkLinkButton">
-                    <property name="label" translatable="yes">Updates</property>
+                    <property name="label" translatable="yes">App Store</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
-                    <property name="uri">https://updates.rlxos.dev</property>
-                    <property name="visited">True</property>
+                    <property name="uri">https://rlxos.dev/apps</property>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -652,9 +651,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://twitter.com/rlxos_dev</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">0</property>
@@ -667,9 +666,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://reddit.com/r/rlxos_dev</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">0</property>
@@ -682,9 +681,9 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://docs.rlxos.dev/</property>
-                    <property name="visited">True</property>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -697,6 +696,7 @@ and installing applications on rlxos</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <property name="halign">start</property>
                     <property name="relief">none</property>
                     <property name="uri">https://github.com/rlxos</property>
                   </object>
@@ -1062,7 +1062,7 @@ recipe file</property>
                         <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <property name="relief">none</property>
-                        <property name="uri">https://github.com/rlxos/src</property>
+                        <property name="uri">https://github.com/rlxos/pkgupd</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
